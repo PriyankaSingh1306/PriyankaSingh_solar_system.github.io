@@ -1,0 +1,274 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+#container {
+    position: relative;
+    height: 700px;
+    background-size: 100% 100%;
+    background-image: url("../images/universe1.jpg");
+
+}
+
+
+h6{
+    position: absolute;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+#neptune{
+    position: absolute;
+    width: 1300px;
+    height: 1300px;
+    border: 2px dotted yellow;
+    border-radius: 100%;
+    animation: solar 20s linear infinite; 
+    top: -40%;
+    left: 2%;
+}
+
+#neptune:after{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url("../images/Neptune1.gif");
+    background-size: 100% 100%;
+    left: -1%;
+    top: 50%;
+}
+#neptune h6{
+
+    top: 44%;
+    left: -2%;
+}
+
+#uranus{
+    position: absolute;
+    width: 1200px;
+    height: 1200px;
+    border: 2px dotted white;
+    border-radius: 100%;
+    left: 6%;
+    top: -31%;
+    animation: solar 20s linear infinite; 
+}
+
+#uranus:after{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-image: url("../images/uranus.png");
+    background-size: 100% 100%;
+    left: 63%;
+    top: -10px;
+}
+#uranus h6{
+
+    top: 0%;
+    left: 68%;
+}
+
+
+#saturn{
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    border: 2px dotted yellow;
+    border-radius: 100%;
+    left: 13%;
+    top: -15%;
+    animation: solar 30s linear infinite; 
+}
+
+#saturn::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-image: url("../images/saturn1.gif");
+    background-size: 100% 100%;
+    left: 23%;
+    top: 89%;
+}
+#saturn h6{
+
+    top: 91%;
+    left: 34%;
+}
+
+
+#jupitor{
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    border: 2px dotted white;
+    border-radius: 100%;
+    left: 20%;
+    top: -2%;
+    animation: solar 30s linear infinite; 
+}
+
+#jupitor::after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-image: url("../images/jupitor2.gif");
+    background-size: 100% 100%;
+    left: 310px;
+    top: -60px;
+}
+#jupitor h6{
+
+    top: -3%;
+left: 32%;
+}
+
+#mars{
+    position: absolute;
+    width: 650px;
+    height: 650px;
+    border: 2px dotted yellow;
+    border-radius: 100%;
+    left: 26%;
+    top: 8%;
+    animation: solar 20s linear infinite; 
+}
+
+#mars::after{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-image: url("../images/mars1.gif");
+    background-size: 100% 100%;
+    left: 93%;
+    top: 50%;
+}
+#mars h6{
+
+    top: 41%;
+    left: 97%;
+}
+
+#earth{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border: 2px dotted white;
+    border-radius: 100%;
+    left: 32%;
+    top: 19%;
+    animation: solar 20s linear infinite; 
+}
+
+#earth::after{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-image: url("../images/earth1.gif");
+    background-size: 100% 100%;
+    left: 75px;
+    top: 7px;
+}
+#earth h6{
+    top: -9%;
+    left: 29%;
+}
+
+
+#venus{
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    border: 2px dotted yellow;
+    border-radius: 100%;
+    left: 37%;
+    top: 27%;
+    animation: solar 10s linear infinite; 
+}
+
+#venus::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: url("../images/Venus1.gif");
+    background-size: 100% 100%;
+    left: 88%;
+    top: 20%;
+}
+#venus h6{
+
+    top: 5%;
+    left: 83%;
+}
+
+#mercury{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 2px dotted white;
+    border-radius: 100%;
+    left: 40%;
+    top: 33%;
+    animation: solar 5s linear infinite; 
+}
+
+#mercury::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    background-image: url("../images/mercury1.gif");
+    background-size: 100% 100%;
+    left: 20%;
+    top: 90%;
+}
+#mercury h6{
+
+    top: 70%;
+    left: 20%;
+}
+
+#sun{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    
+    background-image: url("../images/sun.png");
+    background-size: 100% 100%;
+    left: 42%;
+    top: 37%;
+}
+
+@keyframes solar{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
